@@ -15,10 +15,10 @@ import edithc from "../assets/edith/edithc.JPG";
 import edithd from "../assets/edith/edithd.JPG";
 import edithe from "../assets/edith/edithe.JPG";
 import edithf from "../assets/edith/edithf.JPG";
-import Transition from "../Transition";
+// import Transition from "../Transition";
 const Edith = () => {
   return (
-    <div className="placement-container">
+    <div className="edith-container">
       <div className="content">
         <h1>EDITH ADA MICHAEL</h1>
         <p>
@@ -37,15 +37,15 @@ const Edith = () => {
               style={{ color: "#ffffff", marginRight: "2rem" }}
             />
           </Link>
-          <img src={editha} />
-          <img src={edithb} />
-          <img src={edithc} />
-          <img src={edithd} />
-          <img src={edithe} />
+          <img src={editha} alt="slide 1" />
+          <img src={edithb} alt="slide 2" />
+          <img src={edithc} alt="slide 3" />
+          <img src={edithd} alt="slide 4" />
+          <img src={edithe} alt="slide 5" />
         </div>
       </div>
     </div>
   );
 };
 
-export default Transition(Edith);
+export default Edith;
